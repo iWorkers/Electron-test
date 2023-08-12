@@ -1,0 +1,40 @@
+{
+  "name": "step",
+  "version": "1.1.02",
+  "private": true,
+  "description": "Electron测试的第二个项目",
+  "main": "electron/main.js",
+  "homepage": "./",
+  "author": "Quber",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win --x64"
+  },
+  "build": {
+    "productName": "step",
+    "appId": "step.app",
+    "win": {
+      "target": [
+      
+      ]
+    },
+    "files": [],
+    "extraResources": {
+      "from": "resources",
+      "to": ""
+    },
+    "directories": {
+      "output": "dist_electron"
+    },
+    "icon": "favicon.ico"
+  },
+  
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "electron": "^v25.5.0",
+    "electron-builder": "^24.6.3"
+  }
+  
+}

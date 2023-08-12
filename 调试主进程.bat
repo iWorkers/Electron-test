@@ -1,0 +1,1 @@
+electron --inspect=5858 C:\Users\Administrator\Downloads\RIVEN-main\app
